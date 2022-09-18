@@ -34,7 +34,7 @@ header div img {
 body {
   background-image: url(./assets/Fundo.jpg);
   background-position: top center;
-  background-size: auto;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   background-color: #121214;
 }
@@ -137,12 +137,10 @@ footer {
 
 header div {
   animation: fromTop 0.7s 0.2s backwards;
-  animation-delay: 1s;
 }
 
 main section {
-  animation: fromBotton 0.7s 0.4s backwards;
-  animation-delay: 1s;
+  animation: fromBotton 0.7s backwards;
 }
 
 main section:nth-child(1) {
@@ -150,10 +148,10 @@ main section:nth-child(1) {
 }
 
 main section:nth-child(2) {
-  animation-delay: 0.4s;
+  animation-delay: 0.3s;
 }
 main section:nth-child(3) {
-  animation-delay: 0.8s;
+  animation-delay: 0.6s;
 }
 
 @keyframes fromTop {
